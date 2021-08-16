@@ -1,0 +1,66 @@
+// Contact Details
+
+.contact-details {
+  padding: 8rem 0;
+  background-color: $secondary-color;
+  g
+  & p {
+    color: $secondary-text;
+    font-size: 1rem;
+    line-height: 1.7;
+  }
+  & .contact-info {
+    margin-top: 3rem;
+    & .icon-wrapper {
+      background-color: #dfdfdf;
+      height: 4rem;
+      width: 4rem;
+      border-radius: 50%;
+      margin: 0 auto;
+      & i {
+        color: $primary-color;
+        font-size: 1.5rem;
+      }
+    }
+    & h3 {
+      font-size: 1.4rem;
+      font-weight: 600;
+      margin-top: 2rem;
+    }  
+    & p {
+      color: #000;
+      margin-top: 1rem;
+    }
+  }
+}
+
+// Contact Form
+
+.contact-form {
+  padding: 4rem 0;
+  & p {
+    padding: 0 20rem;
+    font-size: 1rem;
+  }
+  & input, & textarea {
+    display: block;
+    margin-bottom: 2rem;
+    padding: 1rem;
+    width: 100%;
+    font-family: $font-family;
+    border: 0.1rem solid gray;
+    border-radius: 0.8rem;
+  }
+  & button {
+    outline: none;
+    border: none;
+    cursor: pointer;
+    padding: 1.2rem 3rem;
+    font-family: $font-family;
+    &:hover {
+      background-color: #fff;
+      border: 0.1rem solid $primary-color;
+      color: $primary-color;
+    }
+  }
+}
