@@ -1,0 +1,76 @@
+
+
+// About Statement
+
+.about-statement {
+  padding: 8rem;
+  & img {
+    width: 20rem;
+    height: 20rem;
+  }
+  & i {
+    font-size: 3rem;
+    margin-right: 2rem;
+  }
+  & h4 {
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+  & p {
+    color: $secondary-text;
+  }
+  & .statements {
+    margin: 4rem 0;
+  }
+}
+
+// About Team 
+
+.about-team {
+  background-color: $secondary-color;
+  padding-bottom: 8rem;
+  & .section-header p {
+    color: #000;
+  }
+  & .flex-22 {
+    margin: 0 1rem;
+  }
+  & img {
+    width: 15rem;
+    height: 15rem;
+  }
+  & .person-box {
+    padding: 1rem 0;
+    background-color: #fff;
+    & h4 {
+      margin: 2rem 0 1rem 0;
+      font-weight: 700;
+      font-size: 1.5rem;
+    }
+    & p {
+      color: $primary-color;
+    }
+  }
+}
+
+// About CTA 
+
+.about-cta {
+  padding: 4rem 0;
+  & h2 {
+    font-size: 3rem;
+  }
+  & p {
+    padding: 0 20rem;
+    line-height: 1.6;
+    font-size: 1.2rem;
+    margin: 3rem 0;
+  }
+  & .btn:hover {
+    background-color: #fff;
+    border: 0.1rem solid $primary-color;
+  }
+  & a:hover {
+    color: $primary-color;
+  }
+}

@@ -1,0 +1,87 @@
+// Page Hero
+.page-hero {
+  padding-bottom: 4rem;
+  & img {
+    width: 30rem;
+  }
+  & p {
+    font-size: 0.7rem;
+  }
+}
+
+// Products
+
+.products {
+  background-color: $secondary-color;
+  & p {
+    font-size: 1rem;
+  }
+  & h3 {
+    font-size: 1.5rem;
+  }
+  & .services-list {
+    & .flex-30 {
+    text-align: left;
+    border: none;
+    }
+  }
+  & .separator {
+    width: 50rem;
+    height: 0.1rem;
+    background-color: rgb(216, 216, 216);
+    margin: 0 auto;
+  }
+}
+
+// Deal
+
+.deal {
+  background-color: $primary-color;
+  color: #fff;
+  padding: 2rem 0;
+  & .deal-separator {
+    // width: 4rem;
+    // background-color: #fff;
+    // height: 0.1rem;
+    // margin: 0 3rem;
+    color: #fff;
+    font-size: 1.5rem;
+  }
+  & .flex-50 {
+    text-align: right;
+    & a:hover {
+     border: 0.1rem solid #fff; 
+    }
+  }
+}
+
+// Award
+
+.award {
+  padding: 4rem 0;
+  & .section-header p {
+    font-size: 1rem;
+    padding: 0 25rem;
+  }
+  & .award-content {
+    & .award-text img{
+      width: 4rem;
+      height: 4rem;
+    }
+    & img {
+      width: 30rem;
+    }
+  }
+  & .award-text {
+    & h3 {
+      font-size: 1.8rem;
+      font-weight: 900;
+      margin: 2rem 0;
+    }
+    & p {
+      color: $secondary-text;
+      line-height: 1.8;
+      margin-bottom: 2rem;
+    }
+  }
+}
