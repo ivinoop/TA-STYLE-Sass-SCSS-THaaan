@@ -1,0 +1,79 @@
+// Pricing
+
+.pricing {
+  padding: 4rem 0;
+  background-color: $secondary-color;
+  & h2 {
+    text-align: center;
+    margin: 2rem;
+  }
+  & h3 {
+  padding: 0 2rem;      
+  margin-bottom: 2rem;
+  }
+  & .price-card {
+    padding: 2rem 0 3rem 0;
+    border: 0.1rem solid rgb(196, 196, 196);
+    border-radius: 0.4rem;
+    background-color: #fff;
+    & .primary-btn:hover {
+      background-color: #fff;
+      border: 0.1rem solid $primary-color;
+      color: $primary-color;
+    }
+  }
+  & .flex-30 {
+    margin: 0 1rem;
+    & h3 {
+      font-size: 1.4rem;
+      color: #6e6c6c;
+    }
+    & h2 {
+      font-size: 2.4rem;
+      font-weight: 800;
+    }
+    & p {
+      color: $secondary-text;
+      margin-bottom: 2rem;
+      font-size: 1.1rem;
+    }
+    & h4 {
+      font-weight: 700;
+      margin-bottom: 2rem;
+    }
+    & li {
+      margin: 0.8rem 0;
+      font-size: 1rem;
+    }
+    & li:last-child {
+      margin: 0.8rem 0 3rem 0;
+    }
+  }
+}
+
+// FAQ
+
+.faq {
+  padding: 4rem 0;
+  & .section-header p {
+    width: 30rem;
+    margin: 0 auto;
+    font-size: 1rem;
+  }
+  & .faq-boxes {
+    & .flex-45 {
+      padding: 2rem;
+      border: 0.1rem solid rgb(196, 196, 196);
+      border-radius: 0.6rem;
+      margin: 0.5rem;
+      & h3 {
+        font-size: 1.2rem;
+        font-weight: 600;
+        margin-bottom: 1rem;
+      }
+      & p {
+        color: $secondary-text;
+      }
+    }
+  }
+}

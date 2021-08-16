@@ -1,0 +1,184 @@
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: 'Archivo', sans-serif;
+  line-height: 1.5;
+  padding-bottom: 20rem;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1040px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.container-width {
+  max-width: 990px;
+  margin: 0 auto;
+}
+.flex {
+  display: flex;
+}
+
+.column {
+  flex-direction: column;
+}
+
+.flex-60 {
+  flex: 0 1 60%
+}
+
+.flex-40 {
+  flex: 0 1 40%;
+}
+
+.flex-50 {
+  flex: 0 1 50%;
+}
+
+.flex-45 {
+  flex: 0 1 45%;
+}
+
+.flex-30 {
+  flex: 0 1 30%;
+}
+
+.flex-22 {
+  flex: 0 1 22%;
+}
+
+.jcc {
+  justify-content: center;
+}
+
+.aic {
+  align-items: center;
+}
+
+.aifs {
+  align-items: flex-start;
+}
+
+.ais {
+  align-items: stretch;
+}
+
+.jsb {
+  justify-content: space-between;
+}
+
+.jsa {
+  justify-content: space-around;
+}
+
+.jse {
+  justify-content: space-evenly;
+}
+
+.tac {
+  text-align: center;
+}
+
+.no-wrap {
+  flex-wrap: nowrap;
+}
+
+.wrap {
+  flex-wrap: wrap;
+}
+
+a {
+  text-decoration: none;
+}
+
+.btn {
+  padding: 0.8rem 1.8rem;
+  border-radius: 2rem;
+}
+
+.primary-btn {
+  @extend .btn;
+  background-color: $primary-color;
+  color: #fff;
+}
+
+.secondary-btn {
+  @extend .btn;
+  background-color: #fff;
+  border: 0.15rem solid $primary-color;
+  color: $primary-color;
+  &:hover {
+    background-color: $primary-color;
+    color: #fff;
+  }
+}
+
+img {
+  object-fit: cover;
+}
+
+.section-header {
+  padding: 5rem 0;
+  text-align: center;
+  & h2 {
+    color: #000;
+    font-size: 2rem;
+    font-weight: 900;
+    margin-bottom: 1.4rem;
+  }
+  & p {
+    color: $secondary-text;
+    font-size: 1.4rem;
+  }
+}
+
+// Page Title
+
+.page-title {
+  background-color: $primary-color;
+  color: #fff;
+  padding: 4rem 0;
+  & h1 {
+    font-size: 2.4rem;
+    font-weight: 900;
+    margin-bottom: 1.4rem;
+  }
+  & p {
+    font-size: 1rem;
+    font-weight: 300;
+  }
+}
+
+// Page Hero
+
+.page-hero {
+  padding-top: 5rem;
+  & .page-hero-text {
+    & h4 {
+      color: $primary-color;
+      font-size: 1.4rem;
+      font-weight: 500;
+      margin-bottom: 1rem;
+    }
+    & h2 {
+      font-size: 2.2rem;
+      font-weight: 900;
+      margin-bottom: 2rem;
+    }
+    & p {
+      color: $secondary-text;
+      line-height: 1.8;
+      font-size: 1.1rem;
+    }
+  }
+  & img {
+    height: 25rem;
+  }
+}
